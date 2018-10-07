@@ -3,6 +3,8 @@ gem 'cancan'
 gem 'pundit'
 gem 'jruby-openssl', '~> 0.10.1', platforms: :jruby
 
+gem 'sassc-rails'
+
 # Utility gems used in both development & test environments
 gem 'rake'
 gem 'parallel_tests', '~> 2.26'
