@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/glebm/sassc-rails
+  revision: dae1bb5655514d79c463478213e5262732a5a76b
+  branch: jruby
+  specs:
+    sassc-rails (2.0.0)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
+
 PATH
   remote: ..
   specs:
@@ -332,12 +344,6 @@ GEM
     sassc (2.0.0)
       ffi (~> 1.9.6)
       rake
-    sassc-rails (2.0.0)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
@@ -418,7 +424,7 @@ DEPENDENCIES
   redcarpet
   rspec-rails
   rubocop (= 0.59.2)
-  sassc-rails
+  sassc-rails!
   selenium-webdriver
   simplecov
   sqlite3

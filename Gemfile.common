@@ -3,7 +3,7 @@ gem 'cancan'
 gem 'pundit'
 gem 'jruby-openssl', '~> 0.10.1', platforms: :jruby
 
-gem 'sassc-rails'
+gem 'sassc-rails', git: 'https://github.com/glebm/sassc-rails', branch: 'jruby'
 
 # Utility gems used in both development & test environments
 gem 'rake'
